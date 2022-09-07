@@ -1,13 +1,14 @@
-import { Seo } from '@/components/commons';
+import React from 'react';
 import MainLayout from '@/layouts/MainLayout';
-import HomePage from '@/components/Home';
+import FlightSchedulePage from '@/components/FlightSchedule';
+import { Seo } from '@/components/commons';
 
-export default function Home() {
+const FlightSchedule = () => {
     return (
         <>
             <Seo
                 data={{
-                    title: 'Mona Media | Trang chủ',
+                    title: 'Mona Media | Lịch bay',
                     description: 'Mona Media ReactJS Test',
                     url: 'https://learn-nextjs-fawn.vercel.app/',
                     thumbnailUrl:
@@ -15,9 +16,11 @@ export default function Home() {
                 }}
             />
 
-            <HomePage />
+            <FlightSchedulePage />
         </>
     );
-}
+};
 
-Home.Layout = MainLayout;
+FlightSchedule.Layout = MainLayout;
+
+export default FlightSchedule;
