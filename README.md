@@ -1,6 +1,6 @@
 <h1 align='center'>Mona Media ReactJS Test 🐼</h1>
 
-#### **🍺 Live Demo:** https://hufifood.vercel.app/
+#### **🍺 Live Demo:** https://mona-media-test-three.vercel.app/
 
 #### **🏗 Folder structure**
 
