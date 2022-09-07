@@ -24,7 +24,7 @@ src
 1. Clone Project
 
 ```
-  git clone https://github.com/nguyenhoaikhang37/orderfood-user-app.git
+  git clone https://github.com/nguyenhoaikhang37/mona-media-test.git
 ```
 
 2. Install Packages
