@@ -161,7 +161,7 @@ const FlightItem = ({ data, imgSrc }) => {
     );
 };
 
-FlightItem.Skeleton = () => {
+FlightItem.Skeleton = function SkeletonFlightItem() {
     return <LoadingSkeleton height='330px' radius='12px' />;
 };
 
